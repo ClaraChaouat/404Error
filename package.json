@@ -1,0 +1,11 @@
+{
+  "name": "404Error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ClaraChaouat/404Error.git",
+  "author": "Clara CHAOUAT <chaouatclara337@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.39.0"
+  }
+}

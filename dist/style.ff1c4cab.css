@@ -1,0 +1,191 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  min-width: 80vw;
+}
+
+.left-side {
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+.left-side-text {
+  width: 90%;
+  margin: 0 auto;
+  color: #293047;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.left-side-text-first-text {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.left-side-text-second-text {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.left-side-text-third-text {
+  font-size: 3rem;
+}
+
+.left-side-text-button {
+  text-transform: uppercase;
+  padding: 1em 2em;
+  color: #293047;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  background-color: #FFCC02;
+  margin-top: 50px;
+}
+
+.right-side {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.yellow-background {
+  display: flex;
+  justify-content: flex-end;
+  background-color: red;
+}
+
+.yellow-img {
+  z-index: 10000000;
+  position: absolute;
+  transform: translate(89%, -40%);
+  width: 45vw;
+}
+
+.dark-blue-background {
+  height: 100vh;
+}
+
+.dark-blue-img {
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  width: 40vw;
+}
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */

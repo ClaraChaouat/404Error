@@ -1,0 +1,104 @@
+@import "minireset.scss";
+@import "settings.scss";
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  min-width: 80vw;
+  //   background-color: pink;
+}
+
+.left-side {
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+.left-side-text {
+  width:90%;
+  margin:0 auto;
+  color:$navy-blue;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.left-side-text-first-text {
+  font-size: 5rem;
+  font-weight: bold;
+
+}
+
+.left-side-text-second-text {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.left-side-text-third-text {
+  font-size: 3rem;
+}
+
+.left-side-text-button {
+  text-transform: uppercase;
+  padding: 1em 2em;
+  color:$navy-blue;
+  font-weight: bold;
+  border-radius: 25px;
+  border:none;
+  background-color: $background-yellow;
+  margin-top:50px;
+}
+
+.right-side {
+  display: flex;
+  width: 60%;
+  //   background-color: blue;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.yellow-background {
+  display: flex;
+  justify-content: flex-end;
+  background-color: red;
+}
+
+.yellow-img {
+  z-index: 10000000;
+  position: absolute;
+  transform: translate(89%, -40%);
+  width: 45vw;
+}
+
+.dark-blue-background {
+  height: 100vh;
+}
+
+.dark-blue-img {
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  width: 40vw;
+}
